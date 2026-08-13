@@ -1,0 +1,33 @@
+# Compiled object files
+*.o
+*.obj
+*.exe
+
+# Build output folders
+/bin/
+/build/
+/obj/
+/out/
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# C/C++ cache / temp files
+*.tmp
+*.temp
+*.log
+
+# Local generated files
+*.gcda
+*.gcno
+*.gcov
