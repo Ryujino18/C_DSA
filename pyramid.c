@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main (){
+    int n = 4;
+
+    for (int i = 0; i<n; i++){
+        //spaces
+        for (int j=0; j<n-1-i; j++){
+            printf(" ");
+        }
+        //num1
+        for (int j=1; j<=i+1; j++){
+            printf("%d" , j);
+        }
+        //num2
+        for (int j=i; j>0; j--){
+            printf("%d" ,j);
+        }
+    printf("\n");
+    }
+}
